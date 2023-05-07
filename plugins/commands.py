@@ -44,19 +44,14 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [[
-            InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/UPDATE_ALL_MOVIE'),
-            InlineKeyboardButton('☎️CONTACT ME', url='https://t.me/shivu_143m'),
-            InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/UPDATE_ALL_MOVIE')
-            ],[
-            InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
-            InlineKeyboardButton('🌷Join my group', url='https://t.me/+gXuMKXOWm1UyOTdl'),
-            InlineKeyboardButton('♻️ About ♻️', callback_data='about')
-            ],[
-            InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
-        ]]
+        buttons = [ InlineKeyboardButton('🥰 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 🥰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('⚜🥵 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 🥵⚜', url=CHNL_LNK)
+                
+                    InlineKeyboardButton('🤧 𝗛𝗘𝗟𝗣 🤧', callback_data='help'), 
+      
+                ],[
+                    InlineKeyboardButton('💸 𝗘𝗔𝗥𝗡 𝗠𝗢𝗡𝗘𝗬 𝗪𝗜𝗧𝗛 𝗕𝗢𝗧 🤑', callback_data="owner_info"), ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
