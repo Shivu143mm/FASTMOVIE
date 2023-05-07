@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/00bdb8145479df9436ae1.jpg" alt="Ajax Techz">
+  <img src=https://te.legra.ph/file/31bf29b07d346b3820c92.jpg" alt="Ajax Techz">
 </p>
 <h1 align="center">
   <b>file-filter-bot</b>
@@ -97,5 +97,5 @@ python3 bot.py
 • /broadcast - to broadcast a message to Ajax users
 ```
 
-𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 👉 [Sahid malik](https://t.me/sahid_malik)                                                                                                                                                                                 
-𝙲𝙷𝙰𝙽𝙽𝙴𝙻 👉 [movies house](https://t.me/m_house786)
+𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 👉 [SHIVU](https://t.me/Shivu_143m)                                                                                                                                                                                 
+𝙲𝙷𝙰𝙽𝙽𝙴𝙻 👉 [UPDATE](https://t.me/UPDATE_ALL_MOVIE)
