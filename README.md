@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=https://te.legra.ph/file/31bf29b07d346b3820c92.jpg" alt="Ajax Techz">
+  <img src="https://te.legra.ph/file/31bf29b07d346b3820c92.jpg" alt="Ajax Techz">
 </p>
 <h1 align="center">
   <b>file-filter-bot</b>
