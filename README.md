@@ -51,7 +51,7 @@ You can deploy this bot anywhere.
 <p>
 <br>
 
-<a href="https://heroku.com/deploy?template=https://github.com/Maliksahid786/file-filter-botv5">
+<a href="https://heroku.com/deploy?template=https://github.com/Shivu143mm/FASTMOVIE">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -60,7 +60,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Aadhi000/Ajax
+git clone https://github.com/Shivu143mm/FASTMOVIE
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
